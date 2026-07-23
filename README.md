@@ -37,10 +37,10 @@
 
 Named Entity Recognition (NER) is the task of automatically detecting and classifying named mentions of entities — such as persons, organizations, locations, and miscellaneous named entities — within unstructured text. This project evaluates and compares multiple machine learning approaches for NER on the **CoNLL-2003** dataset:
 
-🔹 **Logistic Regression**
-🔹 **Support Vector Machine (SVM)** — with and without Google News word embeddings
-🔹 **Naive Bayes**
-🔹 **Fine-tuned BERT** (3 random seeds)
+🔹 **Logistic Regression** <br>
+🔹 **Support Vector Machine (SVM)** — with and without Google News word embeddings <br>
+🔹 **Naive Bayes** <br>
+🔹 **Fine-tuned BERT** (3 random seeds) <br>
 
 Alongside model comparison, the project includes:
 - **Hyperparameter tuning** via `RandomizedSearchCV`
